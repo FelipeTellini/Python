@@ -1,0 +1,11 @@
+digita = (input('Digita algo: '))
+print(f'O tipo primitivo desse valor é: {digita} ', type(digita))
+print('Sua palavra ou número só tem espaço ? ',digita.isspace())
+print('É um número ? ', digita.isnumeric())
+print('É alfabetico ? ', digita.isalpha())
+print('É alfanumerico ?', digita.isalnum())
+print('Está tudo em maiuscula ?', digita.isupper())
+print('Está tudo em minuscula ?', digita.islower())
+print('Está capitalizado ?', digita.istitle())
+
+fim = input('\nCurso de Python no YouTube, canal CURSO EM VIDEO.')
